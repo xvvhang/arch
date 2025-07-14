@@ -1,16 +1,16 @@
 {
-  "layer"="top",
-  "modules-left" = [
+  "layer": "top",
+  "modules-left": [
     "wlr/taskbar"
   ],
-  "modules-center" = [
+  "modules-center": [
     "clock"
   ],
-  "modules-right" = [
+  "modules-right": [
     "network",
     "battery"
   ],
-  "spacing"=8,
+  "spacing": 8,
   "wlr/taskbar": {
     "format": "{app_id}",
     "on-click": "minimize-raise",
