@@ -1,0 +1,5 @@
+#!/bin/bash
+
+swaybg -i ~/.config/theme/wallpaper.png -m fill &
+waybar &
+mako &

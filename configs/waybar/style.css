@@ -1,0 +1,34 @@
+* {
+  color: #ebdbb2;
+  background-color: #282828;
+}
+
+* {
+  border: none;
+  border-radius: 0px;
+  min-height: 0px;
+  font-family: "JetbrainsMono Nerd Font";
+  font-size: 13px;
+}
+
+#clock {
+  min-width: 16px;
+}
+
+#network {
+  min-width: 16px;
+  margin-right: 8px;
+}
+
+#battery {
+  min-width: 16px;
+  margin-right: 8px;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+tooltip label {
+  padding: 2px;
+}

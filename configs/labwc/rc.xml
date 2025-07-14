@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<labwc_config>
+
+  <core>
+    <default />
+    <gap>8</gap>
+  </core>
+
+  <theme>
+    <default />
+    <titlebar></titlebar>
+    <dropShadows>yes</dropShadows>
+  </theme>
+
+  <windowSwitcher show="yes" preview="no" outlines="no" allWorkspaces="yes">
+    <fields>
+      <field content="icon" width="20%" />
+      <field content="desktop_entry_name" width="80%" />
+    </fields>
+  </windowSwitcher>
+
+  <margin top="8" bottom="8" left="8" right="8" output="" />
+
+  <keyboard>
+    <default />
+    <keybind key="A-Space"></keybind>
+    <repeatDelay>400</repeatDelay>
+    <keybind key="W-w">
+      <action name="Close" />
+    </keybind>
+    <keybind key="W-m">
+      <action name="ToggleMaximize" />
+    </keybind>
+    <keybind key="W-h">
+      <action name="SnapToEdge" direction="left" />
+    </keybind>
+    <keybind key="W-l">
+      <action name="SnapToEdge" direction="right" />
+    </keybind>
+    <keybind key="W-t">
+      <action name="Execute" command="ghostty" />
+    </keybind>
+    <keybind key="W-g">
+      <action name="Execute" command="chromium" />
+    </keybind>
+  </keyboard>
+
+  <libinput>
+    <default />
+    <device category="default">
+      <naturalScroll>yes</naturalScroll>
+      <threeFingerDrag>yes</threeFingerDrag>
+      <tap>yes</tap>
+      <threeFingerDrag>yes</threeFingerDrag>
+      <disableWhileTyping>yes</disableWhileTyping>
+      <clickMethod>clickfinger</clickMethod>
+    </device>
+  </libinput>
+
+  <windowsRules>
+    <default />
+  </windowsRules>
+
+  <menu>
+    <default />
+    <showIcons>yes</showIcons>
+  </menu>
+
+  <magnifier>
+    <default />
+  </magnifier>
+
+</labwc_config>
